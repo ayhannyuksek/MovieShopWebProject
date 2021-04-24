@@ -218,3 +218,15 @@ nav .navbar-brand{
     padding: 5px;
     
 }
+footer{
+    background-color: #30323D !important;
+}
+footer a{
+    background-color: #30323D !important;
+    border-color: #21897E !important;
+}
+
+footer a:hover{
+    background-color: #21897E !important;
+}
+
