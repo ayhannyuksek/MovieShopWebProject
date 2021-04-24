@@ -1,0 +1,274 @@
+body{
+    background-image: url(./img/backgorundFilm.jpg);
+}
+
+nav .container-md{
+    background-color: rgba(255, 255, 255, 0.747);
+    border-radius: 5px;
+    width: 100%;
+    height: 10rem;
+    margin-top: 3rem;
+}
+
+nav div .head {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width:fit-content;
+
+}
+    
+.container{
+    background-color: rgba(255, 255, 255, 0.747);
+    border-radius: 5px;
+    width:100%
+}
+.container .Sepet{
+    display: flex;
+    justify-content: center;
+    
+}
+.container hr{
+    margin:0px; 
+    border-color: #30323D !important;        
+}
+
+.container h1{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: bold;
+    color:#30323D;
+
+}
+
+.nav-head {
+    height: 300px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+  }
+
+  nav div form button{
+    background-color: #30323D !important;
+    color: white  !important;
+}
+nav div .dropdown button{
+    color: white  !important;
+    padding: 12.75px ;
+}
+nav div .dropdown .btn-info{
+    background-color: #30323D !important;
+    border:#30323D;
+    padding: 8px;
+}
+nav div form .btn{
+    border-radius: 100px;
+    width: 5rem;
+}
+nav div form .form-control{
+    border-radius:100px;
+    width: 30rem;
+    margin-right: 5px;
+}
+
+.container .movie-list img{
+    width: 4rem;
+    margin: 1rem;
+    margin-left: 0;
+    
+    
+    
+}
+
+.container .movie-list h5 ion-icon{
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-top: 2px;
+    
+    
+}
+
+.container .movie-list h4{
+    display:inline-flex;
+    margin-left: 8.5rem;
+    color: black;
+    
+
+    
+    
+}
+.container .movie-list h5{
+    display:inline-flex;
+    margin-left: 7.5rem;
+    color: black;
+    
+
+    
+    
+}
+
+
+
+.container .movie-list button{
+    display:inline-flex;
+    margin-left:3rem;
+    color: black;
+    margin-bottom: 12px;
+
+    
+}
+
+.container .movie-list .total{
+    display:inline-flex;
+    margin-left:5rem;
+    color: black;
+    margin-bottom: 12px;
+
+    
+}
+
+
+
+.vertical{
+        border:         none;
+        border-left:    1px solid hsla(200, 10%, 50%,100);
+        height: 100%;
+        width:          1px;       
+}
+
+.movie-header h4{
+    display:inline-block ;
+
+}
+.movie-header .total-price{
+   position: absolute;
+   right: 0;
+   margin-right: 2.5rem;
+    
+}
+.movie-header .quantity{
+    position: absolute;
+    right: 0;
+    margin-right: 18rem;
+}
+
+.movie-header .movie-price{
+    position: absolute;
+    right: 0;
+    margin-right: 33rem;
+}
+
+.col-lg-3 h3{
+    display: flex;
+    margin-top: 25px ;
+}
+
+.navbar.nav-head.navbar-custom span{
+    display: none;
+    background-color:#21897E ;
+    border-radius: 5px;
+    padding: 5px;
+    
+}
+
+
+.open-button {
+    background-color: #30323D !important;
+    color: white;
+    margin-bottom: 5px;  
+  
+  }
+  
+  /* The popup form - hidden by default */
+  .form-popup {
+    display: none;
+    position: fixed;
+    top:20rem;
+    right: 5rem;
+    border: 3px  rgba(255, 255, 255, 0.747);
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.747);
+    z-index: 9;
+  }
+  
+  /* Add styles to the form container */
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    
+  }
+  
+  /* Full-width input fields */
+  .form-container input[type=text], .form-container input[type=password] {
+    width: 100%;
+    padding: 15px;
+    margin: 5px 0 22px 0;
+    border: none;
+    background: #f1f1f1;
+  }
+  
+  /* When the inputs get focus, do something */
+  .form-container input, .form-container input {
+    background-color: #ddd;
+    outline: none;
+  }
+  
+  /* Set a style for the submit/login button */
+  .form-container .btn {
+    background-color: #4CAF50;
+    color: white;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    margin-bottom:10px;
+    opacity: 0.8;
+  }
+  
+  .form-container .cancel {
+    background-color: red;
+  }
+  
+  .form-popup .form-control{
+      width: 70px;
+      display: table-column;
+      background-color: white;
+  }
+
+  .form-popup .ccv{
+    width: 150px !important;
+    
+    background-color: white;
+}
+
+
+.continue-btn{
+    width:187px;
+    background-color: #30323D !important;
+    margin-left: 6px;
+    margin: 5px;
+}
+
+.form-adress input{
+    margin: 5px;
+    
+    box-shadow: none;
+}
+
+.form-adress select{
+    margin: 5px;
+    width: 210px  !important;
+    height: 27px;
+}
+
+.payment{
+    margin-left: 6px;
+    width:30rem !important;
+}
+.col-3{
+    margin-top: 14px;
+}
+
+.form-adress{
+    display: none;
+}
