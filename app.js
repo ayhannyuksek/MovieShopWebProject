@@ -210,7 +210,7 @@ function deneme(e){
     //console.log(movieClass);
     setItems(movieClass);
     totalPrice(movieClass);
-    
+    Added();
 }else if(e.target.className === "md icon-large hydrated"){
     let movie = e.target.parentElement.parentElement.parentElement;
     console.log(movie);
@@ -232,8 +232,8 @@ function deneme(e){
     //console.log(movieClass);
     setItems(movieClass);
     totalPrice(movieClass);
-
-}//else if(e.target === )
+    Added();
+}
 }
 
 function setItems(movieClass){
@@ -366,4 +366,23 @@ function openForm() {
       localStorage.clear();
      
   }
-
+function Added(){
+    Swal.fire({
+      toast: true,
+      icon: 'success',
+      title: 'Ürün Sepete Eklendi',
+    
+      animation: false,
+      position: 'center',
+      showConfirmButton: false,
+      timer: 1000,
+      timerProgressBar: true,
+      didOpen: (toast) => {
+        toast.addEventListener('mouseenter', Swal.stopTimer)
+        toast.addEventListener('mouseleave', Swal.resumeTimer)
+        
+      }
+      
+    })
+ 
+}  
